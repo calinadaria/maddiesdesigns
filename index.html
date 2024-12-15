@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Stezar Calina">
+    <meta name="keywords" content="Portofoliu Professional, graphic design, design jocuri video, UI">
+    <meta name="description"
+        content="Hei, sunt Maddie si dezvolt lumi captivante si personaje care prind viață prin design. ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Oswald:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <title>Maddie's designs</title>
+    <style>
+        body {
+            font-family: Ubuntu;
+            background-color: #e6f5f2;
+        }
+
+        .navbar {
+            background-color: #abd2b6;
+            padding: 15px;
+        }
+
+        .navbar .navbar-brand {
+            font-size: 3vh;
+            line-height: 60px;
+        }
+
+        .nav-link {
+            color: #2a5447;
+            font-weight: bolder;
+        }
+
+        .carousel-item {
+            object-fit: cover;
+        }
+
+        .fs-1 {
+            color: #2a5447;
+            font-family: Rubik Bubbles;
+            border: 5px dashed #abd2b6;
+            margin: 25px;
+            padding: 5px;
+        }
+
+        h2 {
+            color: #2a5447;
+            font-family: Rubik Bubbles;
+        }
+
+        .col .card {
+            background-color: #abd2b6;
+            outline: 3px solid #2a5447;
+            margin: 5px;
+        }
+
+        .card {
+            background: transparent;
+            border: none;
+        }
+
+        .card h3 {
+            color: #2a5447;
+            font-weight: bold;
+        }
+
+        .badge {
+            color: #2a5447;
+            font-family: Ubuntu;
+        }
+
+        h3 {
+            color: #2a5447;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .row {
+            align-items: center;
+        }
+
+        .img-fluid {
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #abd2b6;
+            margin-top: 20px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+
+        footer ul {
+            margin-top: 10px;
+            list-style-type: none;
+        }
+
+        footer a {
+            text-decoration: none;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top">
+        <h1 class="navbar-brand">
+            <a class="nav-link" href="index.html"><img src="logo.png"
+                    alt="logo site, monitor de computer cu munți desenați de culoare albastră pe un fundal portocaliu">
+                Maddy's Designs</a>
+        </h1>
+        <nav class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#despre-mine">Despre mine</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicii">Ce ofer eu?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proiecte">Proiecte</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="carusel/carusel1.jpg" class="d-block w-100"
+                    alt="cuvântul create scris cu litere de tipar cu creionul pe o coală de hârtie">
+            </div>
+            <div class="carousel-item">
+                <img src="carusel/carusel2.jpg" class="d-block w-100"
+                    alt="un ecran de laptop cu mai multe iconițe de la diferite aplicații">
+            </div>
+            <div class="carousel-item">
+                <img src="carusel/carusel3.jpg" class="d-block w-100"
+                    alt="o mână tautată care ține o hârtie pe care scrie be creativ design">
+            </div>
+            <div class="carousel-item">
+                <img src="carusel/carusel4.jpg" class="d-block w-100"
+                    alt="doua mâini care taie o hârtie roz cu un cater și cu ajutorul unui liniar pe o mapă verde pe fundal alb">
+            </div>
+            <div class="carousel-item">
+                <img src="carusel/carusel5.jpg" class="d-block w-100"
+                    alt="un ecran de calculator pe un birou, iar pe lângă el se mai afla o lampă, o tastatura, un mouse, un ceașnic, pe fundal alb">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <p class="fs-1 text-center">
+        Dezvolt lumi captivante și persoanje care prind viață prin design.
+    </p>
+    <div class="container">
+        <p>
+            Sunt un designer grafic pasionat, specializat în crearea de universuri și personaje pentru jocuri video. De
+            peste 6 ani, am avut șansa de a contribui la proiecte captivante, combinând designul 2D și 3D pentru a aduce
+            la viață lumi memorabile și povești captivante.
+
+            Ce mă definește cel mai bine este pasiunea mea pentru fantezie și aventură. Fie că vorbim despre o pădure
+            mistică scăldată în lumină magică sau despre un oraș futuristic cu detalii complexe, mă dedic total pentru a
+            crea medii care îi transportă pe jucători în altă realitate. În plus, pun mare preț pe originalitatea
+            personajelor, lucrând atent la fiecare detaliu pentru ca acestea să fie nu doar vizual impresionante, ci și
+            pline de personalitate.
+
+            Pe parcursul carierei mele, am avut privilegiul să colaborez cu diverse studiouri de jocuri, transformând
+            povești și idei în experiențe vizuale complexe și imersive. Procesul meu creativ începe întotdeauna cu
+            înțelegerea viziunii și valorilor fiecărui proiect, lucrând îndeaproape cu echipele de dezvoltare pentru a
+            asigura că designul îmbogățește experiența de joc.
+
+            Când nu sunt ocupată cu crearea de lumi fantastice, mă inspir din natură, călătorii și jocuri video,
+            hobby-uri care mă ajută să aduc un suflu proaspăt fiecărui proiect. Cred cu tărie că designul de jocuri nu
+            este doar o artă, ci și o metodă de a spune povești și de a crea emoții autentice pentru jucători.
+        </p>
+        <hr />
+    </div>
+    <div class="container">
+        <h2 id="despre-mine">Despre mine</h2>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-lg-3 col-md-4">
+                    <img src="despre-mine/educatie.jpg" class="img-fluid rounded"
+                        alt="o doamnă careia i se văd doar mainile și deseneazaă pe o tabletă grafică la birou">
+                </div>
+                <div class="col-lg-9 col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">Educație</h3>
+                        <p class="card-text">
+                            Hai să îți povestesc puțin despre mine! Am început aventura în designul grafic la
+                            <strong><em>Universitatea Națională de Arte din București</em></strong>, unde am descoperit
+                            pasiunea pentru ilustrație
+                            și design digital. Am dus lucrurile la nivelul următor cu o specializare postuniversitară în
+                            Design pentru Jocuri și Animație la <strong><em>Academia de Arte Digitale</em></strong> din
+                            Londra, unde am învățat să
+                            creez personaje și medii fascinante pentru industria jocurilor video.
+                        </p>
+                        <p class="card-text">Pe lângă cele doua universități urmate, am mai participat și la câteva
+                            cursuri.</p>
+                        <ul class="card-text">
+                            <li>CGMA <em>Character Design for Games </em>&<em>Environment Design</em></li>
+                            <li>Schoolism: <em>Fundamentals of Character Design </em> & <em>Digital Painting and
+                                    Background Design</em></li>
+                            <li>Udemy: <em>Complete Guide to Game UI/UX</em> & <em>Blender for Game Development</em>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-lg-9 col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">Limbi Vorbite</h3>
+                        <p class="card-text">
+                            Pe lângă pasiunea pentru design, vorbesc fluent <strong> engleză, franceză, spaniolă și
+                                germană,</strong> ceea
+                            ce îmi permite să colaborez cu oameni din toată lumea. Am obținut certificări recunoscute
+                            precum <em>Cambridge English CAE, DELF B2, DELE B2 și Goethe-Zertifikat B2</em>, care atestă
+                            nivelul
+                            meu avansat în fiecare limbă.
+                        </p>
+                        <p class="card-text">
+                            Aceste competențe lingvistice mă ajută să lucrez cu echipe internaționale și să mă adaptez
+                            ușor diversității culturale din proiectele globale de design pentru jocuri. Aceste
+                            competențe lingvistice sunt mai mult decât niște calificări pe hârtie – ele îmi deschid
+                            ușile către o lume întreagă de posibilități și mă ajută să creez legături autentice cu
+                            colegii și clienții mei din diverse culturi. Fiecare limbă pe care o vorbesc îmi aduce o
+                            perspectivă nouă și contribuie la creativitatea mea, inspirându-mă să creez designuri care
+                            depășesc granițele și diferențele culturale.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <img src="despre-mine/limbi-vorbite.jpg" class="img-fluid rounded"
+                        alt="rafturi pe care se află foarte multe cărți colorate">
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-lg-3 col-md-4">
+                    <img src="despre-mine/hobbies.jpg" class="img-fluid rounded"
+                        alt="o doamnă blondă pe un fundal roz care poartă pe cap o pălărie în formă de rechin și ochelari de soare">
+                </div>
+                <div class="col-lg-9 col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">Hobbies</h3>
+                        <p class="card-text">
+                            Când nu sunt implicată în proiecte de design, mă dedic hobby-urilor care mă inspiră și îmi
+                            alimentează creativitatea. Arta ocupă un loc important în viața mea, fie că este vorba de
+                            ilustrația tradițională sau pictura digitală. Îmi place să experimentez cu stiluri și
+                            tehnici noi, transformând simple idei în imagini care spun povești. Această pasiune îmi
+                            oferă constant perspective proaspete și idei pentru proiectele mele.
+                        </p>
+                        <p class="card-text">
+                            De asemenea, sunt o mare pasionată de gaming. Jocurile video, în special RPG-urile și
+                            titlurile de aventură, mă fascinează prin felul în care îmbină povești captivante cu lumi
+                            bine construite. Mă inspiră să înțeleg mai bine ce face un joc memorabil și să aplic
+                            aceleași principii în designul pe care îl creez.De asemenea, ador să descopăr lumea prin
+                            fotografie de peisaj și călătorii. Fiecare loc nou pe care îl vizitez îmi oferă idei și
+                            influențe culturale pe care le integrez în proiectele mele. Aceste experiențe mă ajută să
+                            creez lumi autentice și captivante, care să transporte jucătorii în povești unice.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+    </div>
+    <div class="container">
+        <h2 id="servicii">Ce ofer eu?</h2>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3">
+                <div class="col">
+                    <div class="card">
+                        <img src="servicii/card-servicii.jpeg" class="card-img-top"
+                            alt="o doamnă blondă vazută din spate care se uită pe o tabletă la proiectele ei">
+                        <div class="card-body">
+                            <h3 class="card-title">Servicii oferite</h3>
+                            <ul class="card-text">
+                                <li>Concept Art: Dezvoltarea de concepte vizuale pentru universuri de joc, lucrând la
+                                    detalii de stil, palete cromatice și elemente cheie de storytelling.</li>
+                                <li>Design de persoanje și lumi de joc: Crearea de personaje, echipamente și peisaje în
+                                    stiluri diverse</li>
+                                <li>UI/UX Design pentru Jocuri: Crearea interfețelor intuitive și atractive, optimizate
+                                    pentru o experiență fluidă a jucătorului.</li>
+                                <li>Design 2D și 3D: Crearea de personaje, medii și elemente grafice pentru jocuri
+                                    video, de la schițe inițiale până la modele detaliate și animații.
+                                </li>
+                                <li>Software de design: Experiență avansată în Adobe Creative Suite (Photoshop,
+                                    Illustrator, After Effects), Blender, ZBrush și Unity.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="servicii/card-skills.png" class="card-img-top"
+                            alt="o ilustrație cu un laptop, o tabletă grafică, o pereche de ochelari, o ceașcp de cafea, n telefon vazute de sus pe fundal albastru">
+                        <div class="card-body">
+                            <h3 class="card-title">Skills</h3>
+                            <ul class="card-text">
+                                <li>Colaborare în echipă</li>
+                                <li>Adaptabilitate stilistică: Capacitatea de a lucra într-o varietate de stiluri
+                                    artistice, de la fantezie și stil cartoon, până la realism detaliat.</li>
+                                <li>Design Digital: Crearea de ilustrații, caractere și medii 2D/3D, folosind tehnici
+                                    avansate de modelare și texturare pentru a construi lumi vizuale imersive.</li>
+                                <li>Testare Vizuală: Evaluarea designului din perspectiva utilizabilității și a
+                                    impactului asupra experienței jucătorului, oferind soluții vizuale bazate pe
+                                    feedback.</li>
+                                <li>Mecanică Vizuală: Crearea de interfețe și elemente grafice care îmbunătățesc
+                                    experiența jucătorului și susțin gameplay-ul, inclusiv meniuri și HUD-uri.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="servicii/card-softwares.png" class="card-img-top"
+                            alt="o iulstrație cu un laptop și un telefon unul lângă celălalt pe fundal mov deschis">
+                        <div class="card-body">
+                            <h3 class="card-title">Softwares</h3>
+                            <ul class="card-text">
+                                <li>Adobe Photoshop: Editare și ilustrație digitală avansată, crearea de texturi și
+                                    concepte vizuale pentru jocuri.</li>
+                                <li>Adobe Illustrator: Crearea de ilustrații vectoriale pentru elemente grafice și
+                                    iconografie.</li>
+                                <li>Blender: Modelare și animație 3D, crearea de modele, texturi și animații pentru
+                                    personaje și medii.</li>
+                                <li>Unity: Dezvoltare de jocuri, integrarea și optimizarea elementelor vizuale în mediul
+                                    de joc.
+                                </li>
+                                <li>Substance Painter: Texturare 3D, crearea de materiale realiste pentru obiecte și
+                                    personaje din jocuri.</li>
+                                <li>
+                                    ZBrush: Modelare detaliată 3D pentru crearea de personaje și obiecte cu detalii
+                                    complexe.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3>Creațiile mele <span class="badge text-bg-secondary">New</span></h3>
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div>
+                        <img src="galerie/broscuta.jpg" class="img-fluid" alt="ilustrție broscuță">
+                        <p>O broscuță simpatică, de un verde intens.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div>
+                        <img src="galerie/pisica-portocalie-pe-frunze.jpg" class="img-fluid"
+                            alt="ilustrție pisică portocalie care stă pe frunze portocalii">
+                        <p>O pisică portocalie cu blana moale și dungată delicat, stă ghemuită confortabil pe un
+                            covor
+                            de frunze uscate de toamnă..</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div>
+                        <img src="galerie/glob-pamantesc-3d.jpg" class="img-fluid" alt="globul pământesc 3D">
+                        <p>Un glob pământesc 3D, realist și detaliat, plutește pe un fundal întunecat.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div>
+                        <img src="galerie/pisica-portocalie-sub-frunze.jpg" class="img-fluid"
+                            alt="ilustrație pisică portocalie care sta sub frunze portocalii">
+                        <p>O pisică portocalie cu blana pufoasă și dungată delicat stă ghemuită sub un baldachin
+                            natural
+                            de frunze portocalii.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="row align-items-center">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div>
+                    <img src="galerie/veverita-in-punga.jpg" class="img-fluid"
+                        alt="ilustrție veveriță într-o pungă plină de alune">
+                    <p>O veveriță jucăușă cu blană roșcată, urechi ascuțite și ochi mari, strălucitori, este
+                        cocoțată într-o pungă de hârtie maro plină cu alune.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div>
+                    <img src="galerie/soricel-in-costum.jpg" class="img-fluid"
+                        alt="iustrție șoricel cu ochelari, șapcă și costum de aviator">
+                    <p>Un șoricel adorabil, cu blană cenușie și urechi mari rozalii, îmbrăcat într-un costum de
+                        aviator retro.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div>
+                    <img src="galerie/veverita.jpg" class="img-fluid"
+                        alt="ilustrație cu o veverță ce ține în lăbuțe o pungă cu alune">
+                    <p>O veveriță simpatică ce ține în lăbuțe o mică pungă cu nuci. Ochii mari și expresivi îi
+                        conferă un aer jucăuș și prietenos. </p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div>
+                    <img src="galerie/iepuras-in-kimono.jpg" class="img-fluid"
+                        alt="ilustrație iepure îmbrăcat în kimono">
+                    <p>Un iepuraș adorabil îmbrăcat într-un kimono tradițional japonez.</p>
+                </div>
+            </div>
+        </div>
+        <hr />
+    </div>
+    <div class="container">
+        <h2 id="proiecte">Proiecte</h2>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-md-12">
+                    <h3 class="text-center">1. <em>Lumea Mistică</em> - Design de mediu pentru RPG
+                        fantasy</h3>
+                    <p><strong>Descriere</strong>: Am creat designul complet al lumilor pentru <en>Lumea
+                            Mistică</en>, un joc de rol fantasy. Elementele includ păduri magice, castele
+                        antice și peisaje spectaculoase inspirate din mitologie.</p>
+                    <p><strong>Provocare</strong>: Crearea unei atmosfere imersive, cu atenție la detalii,
+                        texturi și lumini pentru o experiență unică.</p>
+                    <p><strong>Rezultat</strong>: O lume vibrantă, apreciată de jucători pentru realism și
+                        complexitate, în care natura, arhitectura și magia se îmbină armonios.</p>
+                    <h3 class="text-center">2. <em>Space Odyssey</em> - Design de personaje</h3>
+                    <p><strong>Descriere</strong>: Am creat personaje pentru <em>Space Odyssey</em>, un joc
+                        de aventură SF. Fiecare personaj are un stil futurist, cu costume complexe și
+                        personalitate distinctă.</p>
+                    <p><strong>Elemente cheie</strong>: Personaje diversificate, detalii anatomice și
+                        trăsături recognoscibile.</p>
+                    <p><strong>Rezultat</strong>: Personajele au devenit rapid favoritele fanilor, datorită
+                        designului original și intrigant.</p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-md-12">
+                    <h3 class="text-center">3. <em>Urban Warriors</em> - UI si HUD </h3>
+
+                    <p><strong>Descriere</strong>: Pentru acest joc, am proiectat interfața grafică (UI) și
+                        elementele HUD integrate perfect în atmosfera urbană și intensă a jocului.</p>
+                    <p><strong>Provocare</strong>: Design funcțional, simplu și intuitiv, dar care să
+                        păstreze o estetică realistă și să se îmbine cu acțiunea rapidă.</p>
+                    <p><strong>Rezultat</strong>: Un UI intuitiv, apreciat de jucători pentru ușurința
+                        utilizării și integrarea cu stilul jocului.</p>
+
+                    <h3 class="text-center">4. <em>Epic Quests</em> - Design de asset-uri</h3>
+
+                    <p><strong>Descriere</strong>: Crearea de obiecte, arme și elemente de decor pentru
+                        <em>Epic Quests</em>, un joc de acțiune. Am modelat și texturat fiecare asset,
+                        dându-le o atmosferă de basm și aventură.
+                    </p>
+                    <p><strong>Provocare</strong>: Crearea de asset-uri detaliate și de înaltă calitate,
+                        care să se alinieze cu tema de poveste.</p>
+                    <p><strong>Rezultat</strong>: Obiectele create de mine au fost apreciate, contibuind la
+                        experiența de joc autentică.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 col-md-12">
+                <h3>Recomandari</h3>
+                <p><strong>Studio <em>Fantasy Forge</em></strong></p>
+                <p>"Maddie a adus o energie proaspătă și originalitate în designul nostru de medii.
+                    Jucătorii sunt complet imersați datorită muncii ei detaliate și pline de viață."</p>
+                <p><strong>Echipa <em>Galactic Studios</em></strong></p>
+                <p>"Personajele create de Maddie pentru 'Space Odyssey' au devenit emblematice. Designul său
+                    inovator și atenția la detalii sunt excepționale."</p>
+                <p><strong><em>Arena Games</em></strong></p>
+                <p>"UI-ul realizat de Maddie a fost un element cheie pentru succesul 'Urban Warriors'. E o
+                    adevărată profesionistă!"</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-md-12">
+                <img src="recomadari.jpeg" class="img-fluid rounded"
+                    alt="o hârtie fotografiată mai de aproape care are desenate niște pătrățele cu x-uri in ele și sub niște linii ondulate și drepte">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <a class="nav-link" href="index.html"><img src="logo.png"
+                        alt="logo site, monitor de computer cu munți desenați de culoare albastră pe un fundal portocaliu">
+                    Maddy's Designs</a>
+                <ul>
+                    <li>E-mail: maddie@gmail.com</li>
+                    <li>Telefon: +40 722 123 456</li>
+                </ul>
+            </div>
+            <ul class="d-flex justify-content-center">
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="instagram.png"
+                            alt="logo instagram"></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" alt="logo facebook"></a>
+                </li>
+                <li><a href="https://www.tiktok.com/en/" target="_blank"><img src="tik-tok.png" alt="logo tiktok"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="text-center">
+            <p class="text-muted">© 2024 Company, Inc</p>
+        </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
